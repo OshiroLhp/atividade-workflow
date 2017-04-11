@@ -1,0 +1,26 @@
+{
+  "name": "atividade-1",
+  "version": "1.0.0",
+  "description": "primeira atividade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula",
+    "git",
+    "bower",
+    "gulp"
+  ],
+  "author": "Marcio Oshiro",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-minify-html": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-ruby-sass": "^2.1.1"
+  },
+  "dependencies": {
+    "minify": "^2.0.13"
+  }
+}
