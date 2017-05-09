@@ -15,12 +15,9 @@
   "author": "Marcio Oshiro",
   "license": "ISC",
   "devDependencies": {
-    "grunt-minify-html": "^2.1.0",
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.0.4",
-    "gulp-ruby-sass": "^2.1.1"
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^3.1.0"
   },
-  "dependencies": {
-    "minify": "^2.0.13"
-  }
+  "dependencies": {}
 }

@@ -1,15 +1,17 @@
 var gulp = require('gulp');
-var cleanCSS = require('gulp-clean-css');
-var minifyHtml = require('minify');
+var sass = require('gulp-sass');
+var minifyHtml = require('gulp-htmlmin');
 
  
 gulp.task('minify-css', function() {
   return gulp.src('./source/scss/*.scss')
+  	.pipe(sass())
     .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('mini-html', function() {
   return gulp.src('./source/*.html')
+  	.pipe(minifyHtml({collapseWhitespace: true}))
     .pipe(gulp.dest('./dist'));
 });
 
